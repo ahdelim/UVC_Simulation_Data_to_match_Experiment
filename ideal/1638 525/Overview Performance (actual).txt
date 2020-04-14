@@ -1,0 +1,265 @@
+  
+  ==================================================================== 
+                   U-Vane Compressor Overall Information  
+  -------------------------------------------------------------------- 
+  
+  ==================================================================== 
+  |                Simulation of U-Vane Compressor                   | 
+  ==================================================================== 
+  ==================================================================== 
+  |                Created by       LIM Yeu De                       | 
+  |                Created on       02-Sept-2016                     | 
+  |                Last updated on  02-JULY-2019                      | 
+  ==================================================================== 
+  
+  -------------------------------------------------------------------- 
+  Working Fluid Properties  
+  -------------------------------------------------------------------- 
+  Refrigerant          =         Air
+ Molecular Weight                 28.9655 g/mol
+ Specific Gas Constant           287.0474 J/kg.K
+  
+  -------------------------------------------------------------------- 
+  Physical Constants 
+  -------------------------------------------------------------------- 
+  Pi                                 pi                  =     3.1416 -
+  Gravitational Acceleration         g_grav              =     9.8100 m/s2
+  
+  -------------------------------------------------------------------- 
+  Material Properties 
+  -------------------------------------------------------------------- 
+  Density of material                rho_mat             =  7750.0000 kg/m3
+  Thermal Conductivity of material   k_mat               =    18.4000 W/m.K
+  
+  -------------------------------------------------------------------- 
+  Operational Parameters 
+  -------------------------------------------------------------------- 
+  Operating Speed [rpm]              rev                 =  1638.0000 rev/min
+  Operating Speed                    omega_1             =   171.5310 rad/s
+  Frequency                          freq                =    27.3000 Hz
+  Coefficient of Discharge                               =     0.6100 -
+  Isentropic coefficient for flow    eff_is              =     0.9000 -
+  Vane side frictional coefficient   coef_vs             =     0.1500 -
+  Vane Housing side (tip) fric. coef coef_vhs            =     0.1000 -
+  Tangential friction per unit circ. coef_circ_lip       =   285.0000 N/m
+  Dynamic Viscosity of oil lubricant miu_oil             =     0.0277 Ns/m2
+  Oil lubricant reservoir Temp.      T_oil_sump          =    45.0000 C
+  Oil lubricant in-chamber Temp.     T_oil_flow          =    60.0000 C
+  
+  -------------------------------------------------------------------- 
+  Valve Reed Physical Properties 
+  -------------------------------------------------------------------- 
+  Density of Valve Reed         rho_dv         =  8000.0000 kg/m3
+  Young Modulus's of Valve Reed E_dv           =   197.0000 GPa
+  Damping Ratio of Valve Reed   dpratio_dv     =     0.5000 -
+  Force coefficient             coef_dv        =     0.2000 -
+  
+  -------------------------------------------------------------------- 
+  Clearances 
+  -------------------------------------------------------------------- 
+  Clearance of upper endface          cl_upend             =    77.0000 micron-m
+  Clearance of lower endface          cl_lowend            =     3.0000 micron-m
+  Clearance of vane side              cl_vs                =    20.0000 micron-m
+  Clearance of vane housing (radial)  cl_rad_vh            =    25.0000 micron-m
+  Clearance of rotor (radial)         cl_rad_ro            =    12.0000 micron-m
+  Clearance of shaft upper bearing (radial) cl_bear_s_up   =    49.5000 micron-m
+  Clearance of shaft lower bearing (radial) cl_bear_s      =    36.5000 micron-m
+  Clearance of roller (radial)        cl_rad_roll          =    30.0000 micron-m
+  Clearance of eccentric upper endface cl_eccef_up         =  5000.0000 micron-m
+  Clearance of eccentric upper endface cl_eccef_low        =  5000.0000 micron-m
+  
+  -------------------------------------------------------------------- 
+  Simulation Parameters Settings 
+  -------------------------------------------------------------------- 
+  Step size                theta_step_degree_1       =   0.0090 Degree
+  Number of Data Points                              =    40000
+  
+  -------------------------------------------------------------------- 
+  Main Dimensions of Compressor  
+  -------------------------------------------------------------------- 
+  Shaft Radius                   r_shaft    =  12.5000 mm
+  Outer Cylinder Radius          r_oc       =  36.0010 mm
+  Rotor Outer Radius             r_ro       =  31.6150 mm
+  Rotor Inner Radius             r_roi      =  16.9455 mm
+  Vane Head Radius               r_vh       =   8.9750 mm
+  Rotor Thickness                t_ro       =  14.6695 mm
+  Outer Cylinder Thickness       t_oc       =  33.9940 mm
+  Eccentricity                   e          =   4.3860 mm
+  Eccentric Diameter             r_ecc      =  16.9150 mm
+  Eccentric Length               l_ecc      =  25.0100 mm
+  Length of compressor           l_com      =  35.0200 mm
+  Length of vane at V.housing    l_vh       =   3.0000 mm
+  Length of vane at Rotor        l_v_ro     =  11.3300 mm
+  Length of vane (max)           l_v_max    =   8.7720 mm
+  Length of upper bearing        l_bearing  =  25.0200 mm
+  Width of vane at V.housing     w_vs_ro    =   4.0200 mm
+  Width of vane at Rotor         w_v_ro     =   5.9800 mm
+  Width of vane (max)            w_v_max    =  14.0200 mm
+  Width of vane slot gap         w_vsro_gap =   0.8000 mm
+  Length of vane slot gap        l_vsro_gap =   3.1500 mm
+  
+  -------------------------------------------------------------------- 
+  Port Dimensions 
+  -------------------------------------------------------------------- 
+  Suction Port Diameter             d_suc             =  16.5000 mm
+  Discharge Port Diameter           d_disc            =   9.1000 mm
+  Suction Port Length               length_suc        = 150.0000 mm
+  Discharge Port Length             length_disc       =   5.0000 mm
+  Suction Port start angle          theta_suc_start   =  29.0929 degree
+  Discharge Port close angle        theta_disc_start  = 320.1568 degree
+  Suction Port fully open angle     theta_suc_end     =  54.9071 degree
+  Discharge Port fully close angle  theta_disc_end    = 334.5632 degree
+ 
+  -------------------------------------------------------------------- 
+  Discharge Valve Dimensions 
+  -------------------------------------------------------------------- 
+  Total Length of Discharge Valve        l_dv         =  45.2500 mm
+  Eff. Length of Discharge Valve         l_dv_ef      =  38.1900 mm
+  Length of Discharge Valve Part x1                   =  11.7300 mm
+  Diameter of Discharge Valve Part x1    dia_dv       =  12.5000 mm
+  Length of Discharge Valve Part x2                   =  25.4500 mm
+  Width of Discharge Valve Part x2       w_dv_x2      =   6.1500 mm
+  Length of Discharge Valve Part x3                   =   1.0100 mm
+  Width of Discharge Valve Part x3       w_dv         =   8.0000 mm
+  Thickness of Discharge Valve           t_dv         =   0.3000 mm
+  Maximum Deflection                     y_stop       =   5.0000 mm
+  -------------------------------------------------------------------- 
+  Thermodynamics Properties @ suction 
+  -------------------------------------------------------------------- 
+  Saturation Pressure  =         100.9429 kPa
+  Evaporator Temp.     =           7.2000 Celsius
+  Suction temperature  =          30.6130 Celsius
+  Density              =           1.1580 kg/m^3 or g/L
+  Entropy              =        3900.3463 J/(kg.K)
+  Specific Heat (Cv)   =         718.1523 J/(kg.K)
+  Specific Heat        =        1006.5103 J/(kg.K)
+  Enthalpy             =       4.3009E+05 J/kg
+  Internal Energy      =       3.4292E+05 J/kg
+  Dynamic Viscosity    =       1.8664E-05 Pa.s (Pa.s) or N.s/m^2
+  Thermal Conductivity =           0.0271 W/(m.K)
+  
+  -------------------------------------------------------------------- 
+  Thermodynamics Properties @ Discharge 
+  -------------------------------------------------------------------- 
+  Saturation Pressure  =         525.3363 kPa
+  Condenser Temp.      =          54.4000 Celsius
+  Discharge Temp.      =          42.2530 Celsius
+  Density              =           3.7671 kg/m^3 or g/L
+  Entropy              =        3900.3463 J/(kg.K)
+  Specific Heat (Cv)   =         739.9734 J/(kg.K)
+  Specific Heat        =        1029.2468 J/(kg.K)
+  Enthalpy             =       6.1373E+05 J/kg
+  Internal Energy      =       4.7427E+05 J/kg
+  Dynamic Viscosity    =       1.9294E-05 Pa.s (Pa.s) or N.s/m^2
+  Thermal Conductivity =           0.0280 W/(m.K)
+  
+  -------------------------------------------------------------------- 
+  Valve Vibration Parameters 
+  -------------------------------------------------------------------- 
+  Natural Frequency of valve                         =        807.0077 rad/s
+  Natural Frequency of valve when hit the stop plate =       4291.0146 rad/s
+  
+  -------------------------------------------------------------------- 
+  Journal bearing (Plain bearing) Analysis 
+  -------------------------------------------------------------------- 
+   Maximum Pressure             =       1.9249 MPa
+   Minimum Oil Film Thickness   =      18.2433 micron-m
+   Minimum Inst Required Oil Flow    =       1.0071 cc/s
+  
+  -------------------------------------------------------------------- 
+  Exergy analysis (2nd Law analysis) 
+  -------------------------------------------------------------------- 
+  Exergy Destroyed by Throttling only             I_thr_only          =      15.8757 W
+  Exergy Destroyed by Fluid Mixing only           I_mix_only          =       3.6259 W
+  Total Mean Exergy Destroyed Rate (Friction)     I_friction_total    =     182.5121 W
+  Total Mean Exergy Destroyed Rate (Throttling)   I_thr_total         =      19.5016 W
+  Total Mean Exergy Destroyed Rate (Heat)         I_heat_total        =       3.8331 W
+  Total Mean Exergy Destroyed Rate (Reexpansion)  I_reexpand          =       0.1070 W
+  Total Mean Exergy Rate Transferred to fluid     exergy_sup_fluid    =     184.3864 W
+  Total Mean Exergy Supplied Rate (with fluid)    exergy_sup_total    =     390.3402 W
+  Total Mean Exergy Destroyed Rate                exergy_destroyed    =     205.9538 W
+  Second Law efficiency                           eff_2nd             =      47.2374 %
+  
+  -------------------------------------------------------------------- 
+  Actual Compressor Performance 
+  -------------------------------------------------------------------- 
+  Total Volume                          vol_total           =      32.6775 cc or cm3
+  Residual mass (Dead volume)           mass_residual_dead  =       0.0012 g
+  Avrg. Leakage Mass Flow               avrg_leakage_mass   =       0.0000 g/s
+  Total Actual Mass Flow Rate           mass_total          =       0.0010 kg/s
+  Total Actual Mass Flow Rate           mass_total          =       1.0040 g/s
+  Total Actual Mass Flow Rate (kg/min)                      =       0.0602 kg/min
+  Cubic Feet per Minute (CFM)                               =       1.8372 CFM
+  -------------------------------------------------------------------- 
+  Internal Leakage profile of NVC
+  -------------------------------------------------------------------- 
+  Avrg. Radial Clearance Leakage        avrg_leak_rad_ro    =       0.0000 g/s
+  Avrg. Vane Endface Leakage            avrg_leak_vef       =       0.0000 g/s
+  Avrg. Rotor Endface Leakage           avrg_leak_ref       =       0.0000 g/s
+  Avrg. Leakage Mass Flow               avrg_leakage_mass   =       0.0000 g/s
+  Cooling Capacity                          q_capacity      =     -23.2578 W
+  Indicated Work for NVC w/o heat & leakage P_ind           =     182.4004 W
+  Indicated Work                            P_ind_hl        =     177.8915 W
+  -------------------------------------------------------------------- 
+  Coefficienct of Performance (COP)
+  -------------------------------------------------------------------- 
+  COP without heat, leakage and frictions     COP_w_o_hl    =      -0.1275 -
+  COP without frictions                       COP_w_hl      =      -0.1307 -
+  COP Real                                    COP_real      =      -0.0600 -
+  -------------------------------------------------------------------- 
+  Efficiencies
+  -------------------------------------------------------------------- 
+  Motor Efficiency                          eff_motor       =      88.7000 %
+  Compression Efficiency                    eff_comp        =      96.4130 %
+  Volumetric Efficiency                     eff_vol         =      97.1936 %
+  Volumetric Efficiency II (disc/suct)      eff_vol_2       =     100.0000 %
+  Mechanical Efficiency                     eff_mec         =      45.8732 %
+  Second Law efficiency                     eff_2nd         =      47.2374 %
+  Overall Efficiency                        eff_overall     =      40.6895 %
+  -------------------------------------------------------------------- 
+  Torque profile of NVC
+  -------------------------------------------------------------------- 
+  Average Input Torque (from motor)                         =       2.5837 Nm
+  Average Input Torque                    T_avrg_input      =       2.2607 Nm
+  Average Torque without loss             T_avrg_no_loss    =       1.0371 Nm
+  Average Frictional Torque               T_avrg_loss       =       1.2237 Nm
+  Individual Torque -------------------------------------------------- 
+  Average Rotor Inertia Torque            T_avrg_I_ro       =      -0.0000 Nm
+  Average Vane Housing Inertia Torque     T_avrg_I_vh       =      -0.0000 Nm
+  Average Compression Torque              T_avrg_com        =       1.0371 Nm
+  Average Bearing Friction Torque         T_avrg_bear_s     =       0.0785 Nm
+  Average Eccentric Friction Torque       T_avrg_ecc        =       0.6041 Nm
+  Average Torque of Lip Seal friction     T_avrg_lip_seal   =       0.2798 Nm
+  Maximum Shaft Torque                    T_peak            =       6.8933 Nm
+  -------------------------------------------------------------------- 
+  Power profile of NVC
+  -------------------------------------------------------------------- 
+  Average Power Input from motor      P_input_motor         =     437.1853 W
+  Average Power Input to compressor   P_input               =     387.7834 W
+  Average Power without Loss          P_avrg_no_loss        =     177.8887 W
+  Average Frictional Loss Power       P_avrg_loss           =     209.8947 W
+  Individual Power --------------------------------------------------- 
+  Average Rotor Inertia Power         P_avrg_inertia_ro     =      -0.0027 W
+  Average Vane Housing Inertia Power  P_avrg_inertia_vh     =      -0.0000 W
+  Average Compression Power           P_avrg_com            =     177.8915 W
+  Average Bearing Friction loss       P_avrg_bear_s         =      13.4694 W
+  Average Eccentric Friction loss     P_avrg_ecc            =     103.6241 W
+  AverageThrottling Power Loss        P_avrg_thr_loss       =       0.0000 W
+  Valve Power Loss                    P_valve_loss          =       6.9626 W
+  -------------------------------------------------------------------- 
+  Individual power losses of NVC
+  -------------------------------------------------------------------- 
+  Vane Housing End-face Friction      L_avrg_ef_vh          =       0.0238 W
+  Vane Housing Side Friction          L_avrg_s_vh           =       1.3081 W
+  Rotor-vane Side Friction            L_avrg_f_vs           =      30.2447 W
+  Rotor End-face Friction             L_avrg_ef_ro          =      13.2305 W
+  Eccentric and rotor inner surface   L_avrg_lub            =     103.6241 W
+  Eccentric End-face Friction         L_avrg_ef_ecc         =       0.0000 W
+  Leakage loss                        L_avrg_leakage        =       0.0000 W
+  Lip seal Friction                   L_avrg_lip_seal       =      47.9940 W
+  Suction Loss w/o heat&leakage       P_loss_suc            =       0.5290 W
+  Suction Loss                        P_loss_suc_hl         =       0.5097 W
+  Discharge Loss w/o heat&leakage     P_loss_disc           =       6.6339 W
+  Discharge Loss                      P_loss_disc_hl        =       6.4529 W
+  Re-expansion Loss                                         =       0.6683 W
+  ==================================================================== 

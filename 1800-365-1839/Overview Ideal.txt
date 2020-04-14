@@ -1,0 +1,7 @@
+  -------------------------------------------------------------------- 
+  Ideal Overview  
+  -------------------------------------------------------------------- 
+  Total Ideal Mass Flow Rate                m_flow_total_id        =          0.0012 kg/s
+  Ideal Cooling Capacity                    q_capacity_id          =        -27.1066 W
+  Id. Total Indicated Work for MCRC         P_ind_id              =     155.3579 W
+  Id. Coefficient of Performance (COP)      COP_ideal             =      -0.1149 -

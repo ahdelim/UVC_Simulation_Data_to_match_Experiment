@@ -1,0 +1,13 @@
+ Theta Step =   0.0002 rad
+ Theta Step =   0.0090 degree
+ Theta Step Low =   0.0035 rad
+ Theta Step Low =   0.2000 degree
+ Theta Step High =   0.0000 rad
+ Theta Step High =   0.0010 degree
+ Start Angle =   0.0000 degree
+ End Angle   = 360.0000 degree
+ Number of Data Points =    40000
+ Number of Written Points = ********
+ Number of Written Points Step =  20.0000
+ Number of Written Points Step Low =  20.0000
+ Number of Written Points Step Low = 180.0000

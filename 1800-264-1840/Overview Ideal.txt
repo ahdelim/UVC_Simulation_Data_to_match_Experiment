@@ -1,0 +1,5 @@
+  -------------------------------------------------------------------- 
+  Ideal Overview  
+  -------------------------------------------------------------------- 
+  Total Ideal Mass Flow Rate                m_flow_total_id        =          0.0012 kg/s
+  Ideal Cooling Capacity                    q_capacity_id          =        -27.1066 W
